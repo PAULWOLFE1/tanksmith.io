@@ -1,0 +1,221 @@
+{ // Core
+		24, // cost
+		1.2, // size
+		true, // manual activate
+		false, // auto activate
+		500, // reload time
+		true, // buildable
+		18 * 2, // hp
+		0.0003 * 4, // regen
+		0.5, // bullet damage
+		0.37, // bullet size
+		11, // bullet speed
+		12, // bullet range
+		0.2, // collision damage
+		-1, // heal
+		1, // speed boost
+		0, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Basic unit
+		6, // cost
+		1, // size
+		false, // manual activate
+		false, // auto activate
+		0, // reload time
+		true, // buildable
+		12 * 2, // hp
+		0.0003 * 4, // regen
+		-1, // bullet damage
+		-1, // bullet size
+		-1, // bullet speed
+		-1, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0, //  boost
+		0, //  boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Basic turret
+		8, // cost
+		1, // size
+		true, // manual activate
+		false, // auto activate
+		500, // reload time
+		true, // buildable
+		6 * 2, // hp
+		0.0003 * 4, // regen
+		0.25, // bullet damage
+		0.37, // bullet size
+		11, // bullet
+		12, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0, //  boost
+		0, //  boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Sniper turret
+		10, // cost
+		1, // size
+		true, // manual activate
+		false, // auto activate
+		800, // reload time
+		true, // buildable
+		6 * 2, // hp
+		0.0003 * 4, // regen
+		0.25, // bullet damage
+		0.3, // bullet size
+		12, // bullet
+		15, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0, //  boost
+		0, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Twin turret
+		10, // cost
+		1, // size
+		true, // manual activate
+		false, // auto activate
+		250, // reload time
+		true, // buildable
+		7 * 2, // hp
+		0.0003 * 4, // regen
+		0.2, // bullet damage
+		0.2, // bullet size
+		11, // bullet speed
+		12, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0, // speed boost
+		0, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Cannon turret
+		18, // cost
+		1, // size
+		true, // manual activate
+		false, // auto activate
+		700, // reload time
+		true, // buildable
+		8 * 2, // hp
+		0.0003 * 4, // regen
+		0.7, // bullet damage
+		0.5, // bullet size
+		10, // bullet speed
+		10, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0, // speed boost
+		0, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Healing unit
+		14, // cost
+		1, // size
+		false, // manual activate
+		true, // auto activate
+		2000, // reload time
+		true, // buildable
+		10 * 2, // hp
+		0.0003 * 4, // regen
+		-1, // bullet damage
+		-1, // bullet size
+		-1, // bullet speed
+		-1, // bullet range
+		0.1, // collision damage
+		1, // heal
+		0, // speed boost
+		0, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Alchemy lab
+		20, // cost
+		1, // size
+		false, // manual activate
+		true, // auto activate
+		2000, // reload time
+		true, // buildable
+		10 * 2, // hp
+		0.0003 * 4, // regen
+		-1, // bullet damage
+		-1, // bullet size
+		-1, // bullet speed
+		-1, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0, // speed boost
+		0, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Booster unit
+		12, // cost
+		1, // size
+		false, // manual activate
+		false, // auto activate
+		0, // reload time
+		true, // buildable
+		10 * 2, // hp
+		0.0003 * 4, // regen
+		-1, // bullet damage
+		-1, // bullet size
+		-1, // bullet speed
+		-1, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0.1, // speed boost
+		0.05, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0.01 // spin animation
+	},
+	{ // Octa Turret
+		16, // cost
+		1, // size
+		true, // manual activate
+		false, // auto activate
+		1500, // reload time
+		true, // buildable
+		8 * 2, // hp
+		0.0003 * 4, // regen
+		0.15, // bullet damage
+		0.2, // bullet size
+		11, // bullet speed
+		10, // bullet range
+		0.1, // collision damage
+		-1, // heal
+		0, // speed boost
+		0, // speed boost upgrade
+		SHAPE_CIRCLE, // shape
+		0 // spin animation
+	},
+	{ // Spike
+		8, // cost
+		0.5, // size
+		false, // manual activate
+		false, // auto activate
+		0, // reload time
+		false, // buildable
+		16 * 2, // hp
+		0.0003 * 4, // regen
+		-1, // bullet damage
+		-1, // bullet size
+		-1, // bullet speed
+		-1, // bullet range
+		0.4, // collision damage
+		-1, // heal
+		0, // speed boost
+		0, // speed boost upgrade
+		SHAPE_TRIANGLE, // shape
+		0 // spin animation
+	}
+};
